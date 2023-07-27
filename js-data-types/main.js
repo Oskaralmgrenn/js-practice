@@ -94,3 +94,16 @@ myArray.push("tree");
 console.log(myArray);
 console.log(firstElement);
 console.log(lastElement);
+
+// Task 5: Object Manipulation
+// 1. Create an object called `person` with properties: `name`, `age`, and `country`. Assign any appropriate values of your choice to these properties.
+// 2. Create a new property in the `person` object called `hobbies` and store an array of hobbies that the person enjoys.
+const person = {
+  name: "John",
+  age: 45,
+  Country: "Sweden",
+};
+
+person.hobbies = ["Fishing", "Tanning", "Biking", "Volleyball"];
+
+console.log(person);
