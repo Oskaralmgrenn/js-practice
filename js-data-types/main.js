@@ -52,3 +52,14 @@ console.log(sum);
 console.log(difference);
 console.log(product);
 console.log(quotient);
+
+// Task 2: String Concatenation
+// 1. Create two variables, `str1` and `str2`, and assign any text values to them.
+// 2. Concatenate `str1` and `str2`, and store the result in a new variable called `concatenatedStr`.
+
+const str1 = "Hello";
+const str2 = "World";
+
+const concatenatedStr = str1 + str2;
+
+console.log(concatenatedStr);
