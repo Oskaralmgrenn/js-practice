@@ -77,3 +77,20 @@ const isAnyTrue = bool1 || bool2;
 
 console.log(isBothTrue);
 console.log(isAnyTrue);
+
+// Task 4: Array Operations
+// 1. Create an array called `myArray` containing any five elements of your choice (numbers, strings, or a mix of both).
+// 2. Access and store the first element of the array in a variable called `firstElement`.
+// 3. Access and store the last element of the array in a variable called `lastElement`.
+// 4. Change the value of the third element in the array to something else.
+// 5. Add a new element to the end of the array.
+
+const myArray = ["Air", "Fire", "Earth", "Water", "10"];
+const firstElement = myArray[0];
+const lastElement = myArray[4];
+myArray[2] = "Tree";
+myArray.push("tree");
+
+console.log(myArray);
+console.log(firstElement);
+console.log(lastElement);
