@@ -63,3 +63,17 @@ const str2 = "World";
 const concatenatedStr = str1 + str2;
 
 console.log(concatenatedStr);
+
+// Task 3: Boolean Manipulation
+// 1. Create two variables, `bool1` and `bool2`, and assign them either `true` or `false`.
+// 2. Create a new variable called `isBothTrue`, which should be `true` if both `bool1` and `bool2` are true. Otherwise, set it to `false`.
+// 3. Create a new variable called `isAnyTrue`, which should be `true` if at least one of `bool1` or `bool2` is true. Otherwise, set it to `false`.
+
+const bool1 = true;
+const bool2 = false;
+
+const isBothTrue = bool1 && bool2;
+const isAnyTrue = bool1 || bool2;
+
+console.log(isBothTrue);
+console.log(isAnyTrue);
